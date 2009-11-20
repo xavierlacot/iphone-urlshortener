@@ -147,6 +147,7 @@
 
 - (NSString *)generateRequestURL:(NSString *)url service:(NSString *)service {
 	NSString *serviceRequestUrl;
+	// Let's check to see if this works!
 	if ([service isEqualToString:kTinyUrlService]) {
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://tinyurl.com/api-create.php?url=%@", url];
 	} else if ([service isEqualToString:kIsgdService]) {
