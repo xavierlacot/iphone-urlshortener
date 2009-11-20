@@ -1,0 +1,1277 @@
+TPasteUrl
+v7
+r0
+t278113964.905531
+cCheck dependencies
+cCpResource build/Debug-iphoneos/PasteUrl.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/Info.plist" PasteUrl-Info.plist
+cCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"
+cCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib"
+cCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib"
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/whiteButton.png" whiteButton.png
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/blueButton.png" ../CompressUrl/blueButton.png
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/19-gear.png" 19-gear.png
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/segment_check.png" segment_check.png
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/background.png" background.png
+cCpResource build/Debug-iphoneos/PasteUrl.app/Settings.bundle "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle"
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard.png" clipboard.png
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard09.png" clipboard09.png
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard_icon.png" clipboard_icon.png
+cCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.tiff" "../../../../Desktop/App Store/PasteUrl_57x57.tiff"
+cCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_128x128.tiff" "../../../../Desktop/App Store/PasteUrl_128x128.tiff"
+cCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_612x512.tiff" "../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff"
+cCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_712x512.tiff" "../../../../Desktop/App Store/PasteUrl_712x512.tiff"
+cCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.png" ../../../../Desktop/PasteUrl_57x57.png
+cProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/main.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrlAppDelegate.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainViewController.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideViewController.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/RegexKitLite.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MBProgressHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/BEStatusHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/Reachability.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl" normal armv6
+cGenerateDSYMFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app.dSYM" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl"
+cProcessProductPackaging "/Users/slhernandez/Library/MobileDevice/Provisioning Profiles/2DABC785-35CF-4530-960E-C0BAA04A67B2.mobileprovision" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision"
+cTouch "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent"
+cCodeSign "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004ABDAC790000000000000110
+t1253944441
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004A0BA04000000000000000DD
+t1242275904
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004A0BA04000000000000001E5
+t1242275904
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004A0BABF90000000000007AC8
+t1242278905
+s31432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004A0BABF900000000000037DD
+t1242278905
+s14301
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004A0BABFA000000000000A9BF
+t1242278906
+s43455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004A0BABFA0000000000000A99
+t1242278906
+s2713
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004A0BAECB00000000000011E4
+t1242279627
+s4580
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004A0BAECC0000000000000B36
+t1242279628
+s2870
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004A0BAECC0000000000001C2F
+t1242279628
+s7215
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004A0BAECC0000000000001688
+t1242279628
+s5768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004A0BAECC00000000000004CE
+t1242279628
+s1230
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004A0BAECC000000000000192A
+t1242279628
+s6442
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004A0BAECD000000000000049D
+t1242279629
+s1181
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004A0BAECD00000000000008B6
+t1242279629
+s2230
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004A0BAECD000000000000576E
+t1242279629
+s22382
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004A0BADB60000000000001A78
+t1242279350
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A121F7D0000000000089F30
+t1242701693
+s565040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/Availability.h
+c000000004A0BB10100000000000019D8
+t1242280193
+s6616
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/AvailabilityMacros.h
+c000000004A0BB1010000000000006724
+t1242280193
+s26404
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/arpa/inet.h
+c000000004A0BA2E40000000000001533
+t1242276580
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/dlfcn.h
+c000000004A0BA2BE0000000000000B1C
+t1242276542
+s2844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/ifaddrs.h
+c000000004A0BA2EC0000000000000782
+t1242276588
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libkern/OSAtomic.h
+c000000004A0BA31400000000000024B9
+t1242276628
+s9401
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netdb.h
+c000000004A0BA3060000000000003057
+t1242276614
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netinet/in.h
+c000000004A0BA77A000000000000535B
+t1242277754
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netinet6/in6.h
+c000000004A0BA77C0000000000004F5B
+t1242277756
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/stdlib.h
+c000000004A0BA3140000000000002AA4
+t1242276628
+s10916
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/string.h
+c000000004A0BA3140000000000001731
+t1242276628
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/sys/socket.h
+c000000004A0BA7810000000000005660
+t1242277761
+s22112
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/sys/types.h
+c000000004A0BA781000000000000290F
+t1242277761
+s10511
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/limits.h
+c0000000049FBCC390000000000000C7E
+t1241238585
+s3198
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/stdarg.h
+c0000000049FBCC3900000000000010DD
+t1241238585
+s4317
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/stdint.h
+c0000000049FBD06D000000000000190C
+t1241239661
+s6412
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004ABDB8B20000000000007AC8
+t1253947570
+s31432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004ABDB8B200000000000037DD
+t1253947570
+s14301
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004ABDB8B4000000000000A9BF
+t1253947572
+s43455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004ABDB8B40000000000000A99
+t1253947572
+s2713
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004ABDBDA500000000000011E4
+t1253948837
+s4580
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004ABDBDA50000000000000B36
+t1253948837
+s2870
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004ABDBDA60000000000001C2F
+t1253948838
+s7215
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004ABDBDA60000000000001688
+t1253948838
+s5768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004ABDBDA600000000000004CE
+t1253948838
+s1230
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004ABDBDA7000000000000192A
+t1253948839
+s6442
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004ABDBDA7000000000000049D
+t1253948839
+s1181
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004ABDBDA700000000000008B6
+t1253948839
+s2230
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004ABDBDA8000000000000576E
+t1253948840
+s22382
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004ABDBB690000000000001A78
+t1253948265
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDBB7700000000000D7460
+t1253948279
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/Availability.h
+c000000004ABDC79900000000000019F9
+t1253951385
+s6649
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/AvailabilityMacros.h
+c000000004ABDC7990000000000006724
+t1253951385
+s26404
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/arpa/inet.h
+c000000004ABDAF5B0000000000001533
+t1253945179
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/dlfcn.h
+c000000004ABDAF300000000000000B1C
+t1253945136
+s2844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/ifaddrs.h
+c000000004ABDAF660000000000000782
+t1253945190
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/libkern/OSAtomic.h
+c000000004ABDAF7800000000000024B9
+t1253945208
+s9401
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netdb.h
+c000000004ABDAF8C0000000000003057
+t1253945228
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet/in.h
+c000000004ABDB473000000000000535B
+t1253946483
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/netinet6/in6.h
+c000000004ABDB4740000000000004F5B
+t1253946484
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/stdlib.h
+c000000004ABDAF790000000000002AA4
+t1253945209
+s10916
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/string.h
+c000000004ABDAF790000000000001731
+t1253945209
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/socket.h
+c000000004ABDB4790000000000005660
+t1253946489
+s22112
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/sys/types.h
+c000000004ABDB479000000000000290F
+t1253946489
+s10511
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/limits.h
+c000000004A53EA040000000000000C7E
+t1247013380
+s3198
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/stdarg.h
+c000000004A53EA0400000000000010DD
+t1247013380
+s4317
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/gcc/arm-apple-darwin9/4.2.1/include/stdint.h
+c000000004A53ED6E000000000000190C
+t1247014254
+s6412
+
+N/Users/slhernandez/Downloads/Reachability/Classes/Reachability.h
+c000000004A7B0B620000000000000F19
+t1249577826
+s3865
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/slhernandez/Library/MobileDevice/Provisioning Profiles/2DABC785-35CF-4530-960E-C0BAA04A67B2.mobileprovision
+c000000004ADB521B0000000000001C00
+t1255887387
+s7168
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle
+c000000004A3AF44B0000000000000088
+t1245377611
+s136
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_128x128.tiff
+c000000004ADE6E900000000000004FFE
+t1256091280
+s20478
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_512x512.tif
+c000000004A8E405000000000000253A0
+t1250836560
+s152480
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_57x57.tiff
+c000000004ADE6E1A0000000000001680
+t1256091162
+s5760
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_712x512.tiff
+c000000004ADE72DC0000000000031EF0
+t1256092380
+s204528
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_812x512.tiff
+c000000004ADE7349000000000003F414
+t1256092489
+s259092
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff
+c000000004ADE7217000000000002548A
+t1256092183
+s152714
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/PasteUrl_57x57.png
+c000000004AE3764C0000000000000FDB
+t1256420940
+s4059
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.h
+c000000004A7B0B620000000000000F19
+t1249577826
+s3865
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m
+c000000004A7B0B6200000000000023A7
+t1249577826
+s9127
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png
+c00000000483C453E00000000000005BC
+t1211909438
+s1468
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png
+c000000004972339E000000000000019D
+t1232221086
+s413
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.h
+c000000004AE35E6F0000000000000B91
+t1256414831
+s2961
+i<UIKit/UIKit.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m
+c000000004AE35E7B00000000000021CA
+t1256414843
+s8650
+i"BEStatusHUD.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.h
+c000000004AE35E3100000000000000BB
+t1256414769
+s187
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m
+c000000004AE35E3900000000000001BB
+t1256414777
+s443
+i"FlipsideView.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.h
+c000000004AE35E420000000000000351
+t1256414786
+s849
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m
+c000000004AE35E4F0000000000000D70
+t1256414799
+s3440
+i"FlipsideViewController.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.h
+c000000004AE35E2800000000000000CF
+t1256414760
+s207
+i<UIKit/UIKit.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m
+c000000004AE35E2000000000000001B3
+t1256414752
+s435
+i"MainView.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.h
+c000000004AE35E1200000000000007BD
+t1256414738
+s1981
+i"FlipsideViewController.h"
+i"MBProgressHUD.h"
+i"BEStatusHUD.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m
+c000000004AE35E07000000000000309A
+t1256414727
+s12442
+i"MainViewController.h"
+i"MainView.h"
+i"RegexKitLite.h"
+i"Reachability.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.h
+c000000004AE35E5700000000000001C3
+t1256414807
+s451
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m
+c000000004AE35E63000000000000032E
+t1256414819
+s814
+i"PasteUrlAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib
+c000000004ADE60B80000000000005943
+t1256087736
+s22851
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.h
+c0000000049DCFC6600000000000013B6
+t1239219302
+s5046
+i<UIKit/UIKit.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m
+c000000004A0F3BE400000000000020F2
+t1242512356
+s8434
+i"MBProgressHUD.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib
+c000000004ADE7695000000000000896D
+t1256093333
+s35181
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib
+c0000000049FCD7750000000000001D4C
+t1241306997
+s7500
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch
+c0000000049ED338F0000000000000142
+t1240281999
+s322
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.h
+c0000000048F9037D0000000000001EC0
+t1224278909
+s7872
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSString.h>
+i<limits.h>
+i<stdint.h>
+i<sys/types.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m
+c0000000048F90380000000000000F133
+t1224278912
+s61747
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFString.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSError.h>
+i<Foundation/NSException.h>
+i<Foundation/NSNotification.h>
+i<Foundation/NSRunLoop.h>
+i<Foundation/NSGarbageCollector.h>
+i<libkern/OSAtomic.h>
+i<AvailabilityMacros.h>
+i<dlfcn.h>
+i<string.h>
+i<stdarg.h>
+i<stdlib.h>
+i"RegexKitLite.h"
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png
+c000000004A0A543B0000000000017229
+t1242190907
+s94761
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app
+t1256421129
+s952
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app.dSYM
+t1256421120
+s102
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/19-gear.png
+t1255904931
+s541
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/FlipsideView.nib
+t1256414314
+s2239
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/Info.plist
+t1256421119
+s749
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/MainView.nib
+t1256414314
+s5322
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/MainWindow.nib
+t1256414314
+s1380
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl
+t1256421120
+s134960
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_128x128.tiff
+t1256091549
+s20478
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_512x512.tif
+t1256092065
+s152480
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.png
+t1256421120
+s4583
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.tiff
+t1256091423
+s5760
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_612x512.tiff
+t1256092301
+s152714
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_712x512.tiff
+t1256093106
+s204528
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_812x512.tiff
+t1256093106
+s259092
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PkgInfo
+t1256421119
+s8
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/ResourceRules.plist
+t1256414313
+s485
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/Settings.bundle
+t1255904931
+s136
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/background.png
+t1255904932
+s62053
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/blueButton.png
+t1255904931
+s1586
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard.png
+t1255904931
+s21159
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard09.png
+t1255904932
+s75551
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard_icon.png
+t1255904932
+s5088
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision
+t1255904933
+s7168
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/segment_check.png
+t1255904931
+s699
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/whiteButton.png
+t1255904931
+s1603
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/BEStatusHUD.o
+t1256421120
+s48092
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideView.o
+t1256421120
+s9640
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideViewController.o
+t1256421120
+s50468
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MBProgressHUD.o
+t1256414315
+s48068
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainView.o
+t1256421120
+s9580
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainViewController.o
+t1256421120
+s86308
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrl.LinkFileList
+c000000004ADF10540000000000000597
+t1256132692
+s1431
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrlAppDelegate.o
+t1256421120
+s44208
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/Reachability.o
+t1256414315
+s24708
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/RegexKitLite.o
+t1256414315
+s78480
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/main.o
+t1256414314
+s6580
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent
+t1256421120
+s329
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png
+c000000004A21A03E0000000000003521
+t1243717694
+s13601
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png
+c000000004A21A32900000000000127A6
+t1243718441
+s75686
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png
+c000000004A21A3E8000000000000112B
+t1243718632
+s4395
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m
+c0000000049ED338F000000000000016D
+t1240281999
+s365
+i<UIKit/UIKit.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png
+c0000000049B7F7F000000000000001FE
+t1236793328
+s510
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png
+c00000000483C453E0000000000000596
+t1211909438
+s1430
+
+N/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-dwnekgjzedkuwubkqezxcoenbgau/PasteUrl_Prefix.pch.gch
+t1255887572
+s7831680
+
+N/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch.gch
+t1255904932
+s7876792
+
+NPasteUrl-Info.plist
+c000000004AE376E70000000000000422
+t1256421095
+s1058
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies278113964#278113964#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"
+s278113928.882034
+e278113929.293811
+r1
+xCodeSign
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app: replacing existing signature
+lSLF07#2@42"CodeSign build/Debug-iphoneos/PasteUrl.app278113928#278113929#0(119"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app: replacing existing signature0(0#0#88"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app4300885448#727"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Steven Hernandez (S93M789C32)" "--resource-rules=/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/ResourceRules.plist" --entitlements "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/BEStatusHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278113920.307838
+e278113920.458293
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/BEStatusHUD.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m278113920#278113920#0(0"0(0#0#68"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m4300885448#1960"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/BEStatusHUD.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278113920.058653
+e278113920.119315
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideView.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m278113920#278113920#0(0"0(0#0#77"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m4300885448#1970"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideView.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideViewController.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278113920.194471
+e278113920.307525
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m278113920#278113920#0(0"0(0#0#87"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m4300885448#1990"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/FlipsideViewController.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MBProgressHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278107114.857503
+e278107115.081967
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MBProgressHUD.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m278107114#278107115#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m4300885448#1964"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MBProgressHUD.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278113920.119422
+e278113920.194359
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainView.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m278113920#278113920#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m4300885448#1962"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainView.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainViewController.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278113920.163422
+e278113920.384163
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainViewController.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m278113920#278113920#0(0"0(0#0#83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m4300885448#1982"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/MainViewController.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrlAppDelegate.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278113920.057621
+e278113920.163324
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrlAppDelegate.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m278113920#278113920#0(0"0(0#0#84"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m4300885448#1984"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrlAppDelegate.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/Reachability.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278107115.168381
+e278107115.303654
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/Reachability.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m278107115#278107115#0(0"0(0#0#112"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m4300885448#2005"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Downloads/Reachability/Classes/Reachability.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/Reachability.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/RegexKitLite.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278107114.751946
+e278107115.168274
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/RegexKitLite.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m278107114#278107115#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m4300885448#1962"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/RegexKitLite.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/main.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s278107114.455032
+e278107114.512354
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/main.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m278107114#278107114#0(0"0(0#0#61"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m4300885448#1946"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/main.o"0#
+
+CCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"
+s278107113.686519
+e278107114.118723
+r1
+xCompileXIB
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib278107113#278107114#0(0"0(0#0#71"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib4300885448#527"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/FlipsideView.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"0#
+
+CCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib"
+s278107113.687208
+e278107114.313370
+r1
+xCompileXIB
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib278107113#278107114#0(0"0(0#0#67"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib4300885448#519"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/MainView.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib"0#
+
+CCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib"
+s278107114.118819
+e278107114.454789
+r1
+xCompileXIB
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib278107114#278107114#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib4300885448#523"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/MainWindow.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/19-gear.png" 19-gear.png
+s277597731.646074
+e277597731.670436
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/19-gear.png
+x19-gear.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/19-gear.png 19-gear.png277597731#277597731#0(0"0(0#0#66"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png4300885448#617"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/19-gear.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.png" ../../../../Desktop/PasteUrl_57x57.png
+s278113920.028474
+e278113920.057293
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.png
+x../../../../Desktop/PasteUrl_57x57.png
+lSLF07#2@103"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.png ../../../../Desktop/PasteUrl_57x57.png278113920#278113920#0(0"0(0#0#93"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/PasteUrl_57x57.png4300885448#651"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/PasteUrl_57x57.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/background.png" background.png
+s277597731.695820
+e277597732.107076
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/background.png
+xbackground.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/background.png background.png277597731#277597732#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png4300885448#623"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/background.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/blueButton.png" ../CompressUrl/blueButton.png
+s277597731.604871
+e277597731.645968
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/blueButton.png
+x../CompressUrl/blueButton.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/blueButton.png ../CompressUrl/blueButton.png277597731#277597731#0(0"0(0#0#84"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png4300885448#638"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/blueButton.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard.png" clipboard.png
+s277597731.713872
+e277597731.849726
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard.png
+xclipboard.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/clipboard.png clipboard.png277597731#277597731#0(0"0(0#0#68"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png4300885448#621"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard09.png" clipboard09.png
+s277597731.849821
+e277597732.064636
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard09.png
+xclipboard09.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/clipboard09.png clipboard09.png277597731#277597732#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png4300885448#625"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard09.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard_icon.png" clipboard_icon.png
+s277597732.064738
+e277597732.091839
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard_icon.png
+xclipboard_icon.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/clipboard_icon.png clipboard_icon.png277597732#277597732#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png4300885448#631"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/clipboard_icon.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/segment_check.png" segment_check.png
+s277597731.670551
+e277597731.695718
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/segment_check.png
+xsegment_check.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/segment_check.png segment_check.png277597731#277597731#0(0"0(0#0#72"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png4300885448#629"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/segment_check.png"0#
+
+CCopyPNGFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/whiteButton.png" whiteButton.png
+s277597731.567064
+e277597731.604769
+r1
+xCopyPNGFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/whiteButton.png
+xwhiteButton.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/PasteUrl.app/whiteButton.png whiteButton.png277597731#277597731#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png4300885448#625"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/whiteButton.png"0#
+
+CCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_128x128.tiff" "../../../../Desktop/App Store/PasteUrl_128x128.tiff"
+s277784349.100042
+e277784349.118055
+r1
+xCopyTiffFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_128x128.tiff
+x../../../../Desktop/App Store/PasteUrl_128x128.tiff
+lSLF07#2@56"Copy ../../../../Desktop/App Store/PasteUrl_128x128.tiff277784349#277784349#0(0"0(0#0#106"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_128x128.tiff4300885448#432"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "../../../../Desktop/App Store/PasteUrl_128x128.tiff" --outdir "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_512x512.tif" "../../../../Desktop/App Store/PasteUrl_512x512.tif"
+s277784865.930791
+e277784865.964659
+r1
+xCopyTiffFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_512x512.tif
+x../../../../Desktop/App Store/PasteUrl_512x512.tif
+lSLF07#2@55"Copy ../../../../Desktop/App Store/PasteUrl_512x512.tif277784865#277784866#0(0"0(0#0#105"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_512x512.tif4300885448#431"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "../../../../Desktop/App Store/PasteUrl_512x512.tif" --outdir "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.tiff" "../../../../Desktop/App Store/PasteUrl_57x57.tiff"
+s277784223.546857
+e277784223.801499
+r1
+xCopyTiffFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_57x57.tiff
+x../../../../Desktop/App Store/PasteUrl_57x57.tiff
+lSLF07#2@54"Copy ../../../../Desktop/App Store/PasteUrl_57x57.tiff277784223#277784223#0(0"0(0#0#104"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_57x57.tiff4300885448#430"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "../../../../Desktop/App Store/PasteUrl_57x57.tiff" --outdir "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_612x512.tiff" "../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff"
+s277785101.191507
+e277785101.685393
+r1
+xCopyTiffFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_612x512.tiff
+x../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff
+lSLF07#2@81"Copy ../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff277785101#277785101#0(0"0(0#0#131"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff4300885448#457"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "../../../../Desktop/App Store/Workflow Stock/to do TIF/PasteUrl_612x512.tiff" --outdir "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_712x512.tiff" "../../../../Desktop/App Store/PasteUrl_712x512.tiff"
+s277785906.237786
+e277785906.275673
+r1
+xCopyTiffFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_712x512.tiff
+x../../../../Desktop/App Store/PasteUrl_712x512.tiff
+lSLF07#2@56"Copy ../../../../Desktop/App Store/PasteUrl_712x512.tiff277785906#277785906#0(0"0(0#0#106"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_712x512.tiff4300885448#432"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "../../../../Desktop/App Store/PasteUrl_712x512.tiff" --outdir "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCopyTiffFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_812x512.tiff" "../../../../Desktop/App Store/PasteUrl_812x512.tiff"
+s277785906.275778
+e277785906.302269
+r1
+xCopyTiffFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl_812x512.tiff
+x../../../../Desktop/App Store/PasteUrl_812x512.tiff
+lSLF07#2@56"Copy ../../../../Desktop/App Store/PasteUrl_812x512.tiff277785906#277785906#0(0"0(0#0#106"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/App Store/PasteUrl_812x512.tiff4300885448#432"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "../../../../Desktop/App Store/PasteUrl_812x512.tiff" --outdir "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCpResource build/Debug-iphoneos/PasteUrl.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+s278106901.468770
+e278106901.684112
+r1
+xCpResource
+xbuild/Debug-iphoneos/PasteUrl.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist278106901#278106901#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist4300885448#517"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCpResource build/Debug-iphoneos/PasteUrl.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s278107113.680290
+e278107113.686372
+r1
+xCpResource
+xbuild/Debug-iphoneos/PasteUrl.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist278107113#278107113#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300885448#519"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CCpResource build/Debug-iphoneos/PasteUrl.app/Settings.bundle "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle"
+s277597731.713071
+e277597731.719655
+r1
+xCpResource
+xbuild/Debug-iphoneos/PasteUrl.app/Settings.bundle
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle
+lSLF07#2@80"Copy /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle277597731#277597731#0(0"0(0#0#75"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle4300885448#505"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
+CGenerateDSYMFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app.dSYM" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl"
+s278113920.508488
+e278113920.535884
+r1
+xGenerateDSYMFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app.dSYM
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/PasteUrl.app.dSYM build/Debug-iphoneos/PasteUrl.app/PasteUrl278113920#278113920#0(0"0(0#0#97"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl4300885448#419"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app.dSYM"0#
+
+CLd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl" normal armv6
+s278113920.458386
+e278113920.508373
+r1
+xLd
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl
+xnormal
+xarmv6
+lSLF07#2@102"Link /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl278113920#278113920#0(0"0(0#0#0"4300885448#1031"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk "-L/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" -filelist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/Objects-normal/armv6/PasteUrl.LinkFileList" -mmacosx-version-min=10.5 -dead_strip -licucore -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PasteUrl"0#
+
+CProcessInfoPlistFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/Info.plist" PasteUrl-Info.plist
+s278113919.918193
+e278113920.027269
+r1
+xProcessInfoPlistFile
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/Info.plist
+xPasteUrl-Info.plist
+lSLF07#2@27"Process PasteUrl-Info.plist278113919#278113920#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl-Info.plist4300885448#638"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PasteUrl-Info.plist -genpkginfo "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/ResourceRules.plist" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/Info.plist"0#
+
+CProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-dwnekgjzedkuwubkqezxcoenbgau/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277580371.759675
+e277580372.566450
+r1
+xProcessPCH
+x/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-dwnekgjzedkuwubkqezxcoenbgau/PasteUrl_Prefix.pch.gch
+xPasteUrl_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PasteUrl_Prefix.pch277580371#277580372#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch4300885448#1821"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch" -o /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-dwnekgjzedkuwubkqezxcoenbgau/PasteUrl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s277597732.107251
+e277597732.701472
+r1
+xProcessPCH
+x/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch.gch
+xPasteUrl_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile PasteUrl_Prefix.pch277597732#277597732#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch4300885448#1825"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources/armv6" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/DerivedSources" -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch" -o /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-esyxgjgnskfpkiajdoydveuajfsb/PasteUrl_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/slhernandez/Library/MobileDevice/Provisioning Profiles/2DABC785-35CF-4530-960E-C0BAA04A67B2.mobileprovision" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision"
+s277597733.332270
+e277597733.333801
+r1
+xProcessProductPackaging
+x/Users/slhernandez/Library/MobileDevice/Provisioning Profiles/2DABC785-35CF-4530-960E-C0BAA04A67B2.mobileprovision
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/slhernandez/Library/MobileDevice/Provisioning Profiles/2DABC785-35CF-4530-960E-C0BAA04A67B2.mobileprovision" build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision277597733#277597733#0(0"0(0#0#113"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision4300885448#466"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/slhernandez/Library/MobileDevice/Provisioning Profiles/2DABC785-35CF-4530-960E-C0BAA04A67B2.mobileprovision" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent"
+s278106904.634044
+e278106904.647401
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent278106904#278106904#0(0"0(0#0#120"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent4300885448#471"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent"
+s278113920.540525
+e278113920.554993
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent
+lSLF07#2@180"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent278113920#278113920#0(0"0(0#0#120"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent4300885448#473"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphoneos/PasteUrl.build/PasteUrl.xcent"0#
+
+CTouch "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"
+s278113920.536374
+e278113920.540416
+r1
+xTouch
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app
+lSLF07#2@94"Touch /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app278113920#278113920#0(0"0(0#0#0"4300885448#301"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphoneos/PasteUrl.app"0#
+
