@@ -23,12 +23,12 @@
 		E904D18F10B64573001FA1D6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E904D18E10B64573001FA1D6 /* Reachability.m */; };
 		E929975B0F9D781600E75021 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E929975A0F9D781600E75021 /* whiteButton.png */; };
 		E929975D0F9D781C00E75021 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E929975C0F9D781C00E75021 /* blueButton.png */; };
-		E93E3DDD1093ADDF0038557B /* PasteUrl_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = E93E3DDC1093ADDF0038557B /* PasteUrl_57x57.png */; };
 		E962CFB60FD1D87F00EB3EA5 /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E962CFB50FD1D87F00EB3EA5 /* clipboard.png */; };
 		E962CFD70FD1DAC100EB3EA5 /* clipboard09.png in Resources */ = {isa = PBXBuildFile; fileRef = E962CFD60FD1DAC100EB3EA5 /* clipboard09.png */; };
 		E962CFE50FD1DB9500EB3EA5 /* clipboard_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E962CFE40FD1DB9500EB3EA5 /* clipboard_icon.png */; };
 		E9643FE1108F47850067E684 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9643FE0108F47850067E684 /* SystemConfiguration.framework */; };
 		E9768CB00FAE8B92002B3DAF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E9768CAF0FAE8B92002B3DAF /* MBProgressHUD.m */; };
+		E9AD119711567DEF00C026D6 /* PasteUrl_712x512.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E9AD119611567DEF00C026D6 /* PasteUrl_712x512.tiff */; };
 		E9AFB2590FBF00A800E838CE /* BEStatusHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AFB2580FBF00A800E838CE /* BEStatusHUD.m */; };
 		E9B49AB20FB8FC2E00A9FD70 /* segment_check.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B49AB10FB8FC2E00A9FD70 /* segment_check.png */; };
 		E9D8C45B0FACCB5E00411D25 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D8C45A0FACCB5E00411D25 /* 19-gear.png */; };
@@ -62,14 +62,14 @@
 		E904D18E10B64573001FA1D6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E929975A0F9D781600E75021 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		E929975C0F9D781C00E75021 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = ../CompressUrl/blueButton.png; sourceTree = SOURCE_ROOT; };
-		E93E3DDC1093ADDF0038557B /* PasteUrl_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PasteUrl_57x57.png; path = ../../../../Desktop/PasteUrl_57x57.png; sourceTree = SOURCE_ROOT; };
 		E962CFB50FD1D87F00EB3EA5 /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
 		E962CFD60FD1DAC100EB3EA5 /* clipboard09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard09.png; sourceTree = "<group>"; };
 		E962CFE40FD1DB9500EB3EA5 /* clipboard_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard_icon.png; sourceTree = "<group>"; };
 		E9643FE0108F47850067E684 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E9643FF5108F47CE0067E684 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../Downloads/Reachability/Classes/Reachability.h; sourceTree = SOURCE_ROOT; };
 		E9768CAE0FAE8B89002B3DAF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E9768CAF0FAE8B92002B3DAF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E9AD118511567AAF00C026D6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E9AD119611567DEF00C026D6 /* PasteUrl_712x512.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = PasteUrl_712x512.tiff; sourceTree = "<group>"; };
 		E9AFB2570FBF00A800E838CE /* BEStatusHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEStatusHUD.h; sourceTree = "<group>"; };
 		E9AFB2580FBF00A800E838CE /* BEStatusHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEStatusHUD.m; sourceTree = "<group>"; };
 		E9B49AB10FB8FC2E00A9FD70 /* segment_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_check.png; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E9643FF5108F47CE0067E684 /* Reachability.h */,
+				E9AD118511567AAF00C026D6 /* Reachability.h */,
 				E904D18E10B64573001FA1D6 /* Reachability.m */,
 				E9768CAF0FAE8B92002B3DAF /* MBProgressHUD.m */,
 				E9768CAE0FAE8B89002B3DAF /* MBProgressHUD.h */,
@@ -170,7 +170,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E93E3DDC1093ADDF0038557B /* PasteUrl_57x57.png */,
+				E9AD119611567DEF00C026D6 /* PasteUrl_712x512.tiff */,
 				E9E32BF710B6437E0094FD5F /* PasteUrl_57x57.png */,
 				E962CFE40FD1DB9500EB3EA5 /* clipboard_icon.png */,
 				E962CFD60FD1DAC100EB3EA5 /* clipboard09.png */,
@@ -260,8 +260,8 @@
 				E962CFB60FD1D87F00EB3EA5 /* clipboard.png in Resources */,
 				E962CFD70FD1DAC100EB3EA5 /* clipboard09.png in Resources */,
 				E962CFE50FD1DB9500EB3EA5 /* clipboard_icon.png in Resources */,
-				E93E3DDD1093ADDF0038557B /* PasteUrl_57x57.png in Resources */,
 				E9E32BF810B6437E0094FD5F /* PasteUrl_57x57.png in Resources */,
+				E9AD119711567DEF00C026D6 /* PasteUrl_712x512.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

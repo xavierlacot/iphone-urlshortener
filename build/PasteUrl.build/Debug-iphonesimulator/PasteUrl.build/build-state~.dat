@@ -1,7 +1,7 @@
 TPasteUrl
 v7
 r0
-t277495530.445084
+t290875900.161583
 cCheck dependencies
 cProcessInfoPlistFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Info.plist" PasteUrl-Info.plist
 cCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"
@@ -16,7 +16,9 @@ cCpResource build/Debug-iphonesimulator/PasteUrl.app/Settings.bundle "/Users/slh
 cCpResource build/Debug-iphonesimulator/PasteUrl.app/clipboard.png clipboard.png
 cCpResource build/Debug-iphonesimulator/PasteUrl.app/clipboard09.png clipboard09.png
 cCpResource build/Debug-iphonesimulator/PasteUrl.app/clipboard_icon.png clipboard_icon.png
-cProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png ../../../../Desktop/PasteUrl_57x57.png
+cCpResource build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png PasteUrl_57x57.png
+cProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/main.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrlAppDelegate.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -26,13 +28,11 @@ cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-norm
 cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/RegexKitLite.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MBProgressHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/BEStatusHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl" normal i386
-cGenerateDSYMFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app.dSYM" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl"
-cTouch "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"
+cCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/Reachability.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AD8614600000000000000EE
-t1255694662
+c000000004AF0C10000000000000000EE
+t1257292032
 s238
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
@@ -49,6 +49,11 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1
 c000000004ABDC7BA000000000000A9BF
 t1253951418
 s43455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004ABDC7BB0000000000000A99
+t1253951419
+s2713
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004ABDC853000000000026EE30
@@ -110,6 +115,16 @@ c000000004ABDC942000000000000576E
 t1253951810
 s22382
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004ABDC8010000000000001A78
+t1253951489
+s6776
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDC8080000000000055360
+t1253951496
+s349024
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004ABDEE1D0000000000000788
 t1253961245
@@ -130,15 +145,40 @@ c000000004ABDCA470000000000006724
 t1253952071
 s26404
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/arpa/inet.h
+c00000000464386D70000000000001533
+t1178830551
+s5427
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/dlfcn.h
 c00000000476340E00000000000000AC7
 t1197687008
 s2759
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/ifaddrs.h
+c00000000464386E00000000000000782
+t1178830560
+s1922
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libkern/OSAtomic.h
 c000000004748A13100000000000024B9
 t1195942193
 s9401
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netdb.h
+c00000000464386E20000000000002F2B
+t1178830562
+s12075
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/netinet6/in6.h
+c00000000476344BA0000000000004970
+t1197687994
+s18800
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/stdlib.h
 c000000004748A1330000000000002A79
@@ -149,6 +189,11 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1
 c000000004748A1330000000000001731
 t1195942195
 s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/sys/types.h
 c00000000476344C1000000000000290F
@@ -175,6 +220,11 @@ c000000004A3AF44B0000000000000088
 t1245377611
 s136
 
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/PasteUrl_57x57.png
+c00000000000000000000000000000000
+t2
+s0
+
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png
 c00000000483C453E00000000000005BC
 t1211909438
@@ -186,83 +236,84 @@ t1232221086
 s413
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.h
-c000000004A103D700000000000000B91
-t1242578288
+c000000004AE35E6F0000000000000B91
+t1256414831
 s2961
 i<UIKit/UIKit.h>
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m
-c000000004A103D3500000000000021CA
-t1242578229
+c000000004AE35E7B00000000000021CA
+t1256414843
 s8650
 i"BEStatusHUD.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.h
-c0000000049ED338F00000000000000BD
-t1240281999
-s189
+c000000004AE35E3100000000000000BB
+t1256414769
+s187
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m
-c0000000049ED338F00000000000001BD
-t1240281999
-s445
+c000000004AE35E3900000000000001BB
+t1256414777
+s443
 i"FlipsideView.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.h
-c000000004A3AF32F0000000000000353
-t1245377327
-s851
+c000000004AE35E420000000000000351
+t1256414786
+s849
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m
-c000000004A3AF3710000000000000D72
-t1245377393
-s3442
+c000000004AE35E4F0000000000000D70
+t1256414799
+s3440
 i"FlipsideViewController.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.h
-c0000000049ED338F00000000000000CD
-t1240281999
-s205
+c000000004AE35E2800000000000000CF
+t1256414760
+s207
 i<UIKit/UIKit.h>
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m
-c0000000049ED338F00000000000001B1
-t1240281999
-s433
+c000000004AE35E2000000000000001B3
+t1256414752
+s435
 i"MainView.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.h
-c000000004A3AF2E50000000000000721
-t1245377253
-s1825
+c000000004AE35E1200000000000007BD
+t1256414738
+s1981
 i"FlipsideViewController.h"
 i"MBProgressHUD.h"
 i"BEStatusHUD.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m
-c000000004A3ED8A10000000000002C8A
-t1245632673
-s11402
+c000000004B06152400000000000030C3
+t1258689828
+s12483
 i"MainViewController.h"
 i"MainView.h"
 i"RegexKitLite.h"
+i"Reachability.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.h
-c0000000049FCD7C200000000000001C5
-t1241307074
-s453
+c000000004AE35E5700000000000001C3
+t1256414807
+s451
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m
-c0000000049FCD7600000000000000330
-t1241306976
-s816
+c000000004AE35E63000000000000032E
+t1256414819
+s814
 i"PasteUrlAppDelegate.h"
 i"MainViewController.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib
-c000000004A1041020000000000002CC8
-t1242579202
-s11464
+c000000004ADE60B80000000000005943
+t1256087736
+s22851
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.h
 c0000000049DCFC6600000000000013B6
@@ -277,14 +328,19 @@ s8434
 i"MBProgressHUD.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib
-c000000004A3AB77A0000000000005574
-t1245362042
-s21876
+c000000004ADE7695000000000000896D
+t1256093333
+s35181
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib
 c0000000049FCD7750000000000001D4C
 t1241306997
 s7500
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_57x57.png
+c000000004AE3764C0000000000000FDB
+t1256420940
+s4059
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch
 c0000000049ED338F0000000000000142
@@ -293,6 +349,26 @@ s322
 i<Availability.h>
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.h
+c000000004A7B0B620000000000000F19
+t1249577826
+s3865
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m
+c000000004A7B0B6200000000000023A7
+t1249577826
+s9127
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.h
 c0000000048F9037D0000000000001EC0
@@ -333,113 +409,121 @@ t1242190907
 s94761
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app
-t1255802730
-s578
+t2
+s0
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app.dSYM
-t1255802730
-s102
+t2
+s0
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/19-gear.png
-t1255802728
+t1269183097
 s413
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/FlipsideView.nib
-t1255802728
-s2250
+t1269183098
+s2262
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Info.plist
-t1255802728
-s620
+t1269183097
+s712
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/MainView.nib
-t1255802728
-s5171
+t1269183098
+s5322
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/MainWindow.nib
-t1255802728
-s1380
+t1269183098
+s1364
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl
-t1255802730
-s104028
+t2
+s0
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png
+t1269183097
+s4059
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PkgInfo
-t1255802728
+t1269183097
 s8
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Settings.bundle
-t1255802728
+t1269183097
 s136
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/background.png
-t1255802728
+t1269183097
 s94761
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/blueButton.png
-t1255802728
+t1269183097
 s1468
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/clipboard.png
-t1255802728
+t1269183097
 s13601
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/clipboard09.png
-t1255802728
+t1269183097
 s75686
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/clipboard_icon.png
-t1255802728
+t1269183097
 s4395
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/segment_check.png
-t1255802728
+t1269183097
 s510
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/whiteButton.png
-t1255802728
+t1269183097
 s1430
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/BEStatusHUD.o
-t1255802730
-s38784
+t1269183100
+s38776
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideView.o
-t1255802729
-s9916
+t1269183100
+s9908
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideViewController.o
-t1255802729
-s43916
+t1269183100
+s43908
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MBProgressHUD.o
-t1255802730
-s38652
+t1269183100
+s38644
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainView.o
-t1255802729
-s9864
+t1269183100
+s9856
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainViewController.o
-t1255802729
-s69516
+t2
+s0
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrl.LinkFileList
-c000000004ADA0768000000000000053F
-t1255802728
-s1343
+c000000004BA6327900000000000005D3
+t1269183097
+s1491
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrlAppDelegate.o
-t1255802729
-s40884
+t1269183100
+s40968
+
+N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/Reachability.o
+t1269183100
+s21020
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/RegexKitLite.o
-t1255802730
-s63624
+t1269183100
+s63616
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/main.o
-t1255802729
-s5988
+t1269183100
+s5980
 
 N/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png
 c000000004A21A03E0000000000003521
@@ -472,22 +556,22 @@ c00000000483C453E0000000000000596
 t1211909438
 s1430
 
-N/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch.gch
-t1255802729
-s13034960
+N/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch.gch
+t1269183099
+s13026768
 
 NPasteUrl-Info.plist
-c000000004A21A423000000000000038A
-t1243718691
-s906
+c000000004AE376E70000000000000422
+t1256421095
+s1058
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies277495528#277495528#0(0"0(0#1#0"7947009927035180032#0"0#
+lSLF07#2@18"Check dependencies290875897#290875897#0(170"[WARN]Warning: Multiple build commands for output file /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png1(22@163"Warning: Multiple build commands for output file /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png290875897#18446744073709551615#0#0(1@0"0(0#1#0"8245940720249172992#0"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/BEStatusHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495530.122394
-e277495530.236913
+s290875900.084224
+e290875900.161516
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/BEStatusHUD.o
@@ -496,11 +580,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m277495530#277495530#0(0"0(0#0#68"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m4300885448#2091"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/BEStatusHUD.o"0#
+lSLF07#2@76"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m290875900#290875900#0(0"0(0#0#68"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m4300911832#2091"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/BEStatusHUD.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/BEStatusHUD.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.700921
-e277495529.762470
+s290875899.907105
+e290875900.083479
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideView.o
@@ -509,11 +593,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m277495529#277495529#0(0"0(0#0#77"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m4300885448#2101"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideView.o"0#
+lSLF07#2@85"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m290875899#290875900#0(0"0(0#0#77"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m4300911832#2101"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideView.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideView.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideViewController.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.806083
-e277495529.909056
+s290875899.909112
+e290875900.086275
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideViewController.o
@@ -522,11 +606,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m277495529#277495529#0(0"0(0#0#87"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m4300885448#2121"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideViewController.o"0#
+lSLF07#2@95"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m290875899#290875900#0(0"0(0#0#87"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m4300911832#2121"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/FlipsideViewController.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/FlipsideViewController.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MBProgressHUD.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.938678
-e277495530.122284
+s290875899.910475
+e290875900.101370
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MBProgressHUD.o
@@ -535,11 +619,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m277495529#277495530#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m4300885448#2095"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MBProgressHUD.o"0#
+lSLF07#2@78"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m290875899#290875900#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m4300911832#2095"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MBProgressHUD.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MBProgressHUD.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainView.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.735178
-e277495529.805970
+s290875899.907765
+e290875900.083640
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainView.o
@@ -548,12 +632,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m277495529#277495529#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m4300885448#2093"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainView.o"0#
+lSLF07#2@81"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m290875899#290875900#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m4300911832#2093"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainView.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainView.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainViewController.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.762681
-e277495529.938572
-r1
+s290875899.908441
+e290875900.086636
+r0
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainViewController.o
 x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m
@@ -561,17 +645,409 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController showPreview:]':
-o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:109: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)
-o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController generateRequestURL:service:]':
-o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:155: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)
-o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController unshortUrl:]':
-o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:226: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)
-lSLF07#2@91"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m277495529#277495529#0(1346"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController showPreview:]':/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:109: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController generateRequestURL:service:]':/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:155: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController unshortUrl:]':/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:226: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)3(22@210"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)277495529#135#309#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m267325473#109#0#109#0#33"'*' is deprecated (declared at *)0(22@210"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)277495529#594#309#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m267325473#155#0#155#0#33"'*' is deprecated (declared at *)0(22@210"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:358)277495529#1037#309#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m267325473#226#0#226#0#33"'*' is deprecated (declared at *)0(0#0#83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m4300885448#2113"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainViewController.o"0#
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:12:25: error: Reachability.h: No such file or directory
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController reachabilityChanged:]':
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:300: warning: receiver 'Reachability' is a forward class and corresponding @interface may not exist
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController connectedToInternet:]':
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: 'NetworkStatus' undeclared (first use in this function)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: (Each undeclared identifier is reported only once
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: for each function it appears in.)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: expected ';' before 'netStatus'
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:309: error: 'netStatus' undeclared (first use in this function)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:310: error: 'NotReachable' undeclared (first use in this function)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:317: error: 'ReachableViaWWAN' undeclared (first use in this function)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:324: error: 'ReachableViaWiFi' undeclared (first use in this function)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:336: warning: control reaches end of non-void function
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController viewDidAppear:]':
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:342: error: 'kReachabilityChangedNotification' undeclared (first use in this function)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: no '+reachabilityForInternetConnection' method found
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: (Messages without a matching method signature
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: will be assumed to return 'id' and accept
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: '...' as arguments.)
+o/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:345: warning: no '-startNotifer' method found
+o{standard input}:2079:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_47" minus "L00000000019$pb"
+o{standard input}:2079:symbol: "L_OBJC_SELECTOR_REFERENCES_47" can't be undefined in a subtraction expression
+o{standard input}:2070:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_46" minus "L00000000019$pb"
+o{standard input}:2070:symbol: "L_OBJC_SELECTOR_REFERENCES_46" can't be undefined in a subtraction expression
+o{standard input}:2067:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000019$pb"
+o{standard input}:2067:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:2060:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_45" minus "L00000000019$pb"
+o{standard input}:2060:symbol: "L_OBJC_SELECTOR_REFERENCES_45" can't be undefined in a subtraction expression
+o{standard input}:2057:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_10" minus "L00000000019$pb"
+o{standard input}:2057:symbol: "L_OBJC_CLASS_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:2049:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_44" minus "L00000000019$pb"
+o{standard input}:2049:symbol: "L_OBJC_SELECTOR_REFERENCES_44" can't be undefined in a subtraction expression
+o{standard input}:2043:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_43" minus "L00000000019$pb"
+o{standard input}:2043:symbol: "L_OBJC_SELECTOR_REFERENCES_43" can't be undefined in a subtraction expression
+o{standard input}:2040:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_9" minus "L00000000019$pb"
+o{standard input}:2040:symbol: "L_OBJC_CLASS_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:2032:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_42" minus "L00000000019$pb"
+o{standard input}:2032:symbol: "L_OBJC_SELECTOR_REFERENCES_42" can't be undefined in a subtraction expression
+o{standard input}:1960:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000018$pb"
+o{standard input}:1960:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:1956:non-relocatable subtraction expression, "L_OBJC_CLASS_MainViewController" minus "L00000000018$pb"
+o{standard input}:1956:symbol: "L_OBJC_CLASS_MainViewController" can't be undefined in a subtraction expression
+o{standard input}:1925:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_41" minus "L00000000017$pb"
+o{standard input}:1925:symbol: "L_OBJC_SELECTOR_REFERENCES_41" can't be undefined in a subtraction expression
+o{standard input}:1897:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_40" minus "L00000000016$pb"
+o{standard input}:1897:symbol: "L_OBJC_SELECTOR_REFERENCES_40" can't be undefined in a subtraction expression
+o{standard input}:1893:non-relocatable subtraction expression, "L_OBJC_CLASS_MainViewController" minus "L00000000016$pb"
+o{standard input}:1893:symbol: "L_OBJC_CLASS_MainViewController" can't be undefined in a subtraction expression
+o{standard input}:1864:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_39" minus "L00000000015$pb"
+o{standard input}:1864:symbol: "L_OBJC_SELECTOR_REFERENCES_39" can't be undefined in a subtraction expression
+o{standard input}:1860:non-relocatable subtraction expression, "L_OBJC_CLASS_MainViewController" minus "L00000000015$pb"
+o{standard input}:1860:symbol: "L_OBJC_CLASS_MainViewController" can't be undefined in a subtraction expression
+o{standard input}:1852:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"
+o{standard input}:1852:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1843:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"
+o{standard input}:1843:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1834:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"
+o{standard input}:1834:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1825:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"
+o{standard input}:1825:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1816:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"
+o{standard input}:1816:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1773:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000014$pb"
+o{standard input}:1773:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:1770:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000014$pb"
+o{standard input}:1770:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1758:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000014$pb"
+o{standard input}:1758:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:1752:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000014$pb"
+o{standard input}:1752:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1749:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000014$pb"
+o{standard input}:1749:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:1739:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000014$pb"
+o{standard input}:1739:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:1732:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000014$pb"
+o{standard input}:1732:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1729:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000014$pb"
+o{standard input}:1729:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1659:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000013$pb"
+o{standard input}:1659:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1650:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000013$pb"
+o{standard input}:1650:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression
+o{standard input}:1611:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000012$pb"
+o{standard input}:1611:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:1601:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000012$pb"
+o{standard input}:1601:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:1587:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"
+o{standard input}:1587:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression
+o{standard input}:1578:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000012$pb"
+o{standard input}:1578:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:1568:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"
+o{standard input}:1568:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression
+o{standard input}:1557:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"
+o{standard input}:1557:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression
+o{standard input}:1544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"
+o{standard input}:1544:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression
+o{standard input}:1529:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_37" minus "L00000000012$pb"
+o{standard input}:1529:symbol: "L_OBJC_SELECTOR_REFERENCES_37" can't be undefined in a subtraction expression
+o{standard input}:1526:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_8" minus "L00000000012$pb"
+o{standard input}:1526:symbol: "L_OBJC_CLASS_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:1443:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000011$pb"
+o{standard input}:1443:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:1441:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000011$pb"
+o{standard input}:1441:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:1430:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000011$pb"
+o{standard input}:1430:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:1419:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000011$pb"
+o{standard input}:1419:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:1408:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000011$pb"
+o{standard input}:1408:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:1397:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000011$pb"
+o{standard input}:1397:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:1388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000011$pb"
+o{standard input}:1388:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:1382:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000011$pb"
+o{standard input}:1382:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:1371:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000011$pb"
+o{standard input}:1371:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1365:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"
+o{standard input}:1365:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:1359:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000011$pb"
+o{standard input}:1359:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:1356:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000011$pb"
+o{standard input}:1356:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1350:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000011$pb"
+o{standard input}:1350:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1347:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000011$pb"
+o{standard input}:1347:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:1305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000010$pb"
+o{standard input}:1305:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression
+o{standard input}:1285:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_34" minus "L00000000010$pb"
+o{standard input}:1285:symbol: "L_OBJC_SELECTOR_REFERENCES_34" can't be undefined in a subtraction expression
+o{standard input}:1274:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_36" minus "L00000000010$pb"
+o{standard input}:1274:symbol: "L_OBJC_SELECTOR_REFERENCES_36" can't be undefined in a subtraction expression
+o{standard input}:1266:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000010$pb"
+o{standard input}:1266:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:1236:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000009$pb"
+o{standard input}:1236:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:1227:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000009$pb"
+o{standard input}:1227:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression
+o{standard input}:1180:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000008$pb"
+o{standard input}:1180:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:1177:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"
+o{standard input}:1177:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1170:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000008$pb"
+o{standard input}:1170:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression
+o{standard input}:1162:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000008$pb"
+o{standard input}:1162:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:1156:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"
+o{standard input}:1156:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1153:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000008$pb"
+o{standard input}:1153:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:1125:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"
+o{standard input}:1125:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:1118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"
+o{standard input}:1118:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1115:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"
+o{standard input}:1115:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1106:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000008$pb"
+o{standard input}:1106:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:1092:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"
+o{standard input}:1092:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:1085:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"
+o{standard input}:1085:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1082:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"
+o{standard input}:1082:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1073:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000008$pb"
+o{standard input}:1073:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:1059:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"
+o{standard input}:1059:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:1052:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"
+o{standard input}:1052:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:1049:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"
+o{standard input}:1049:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:1040:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000008$pb"
+o{standard input}:1040:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:932:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000007$pb"
+o{standard input}:932:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:925:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000007$pb"
+o{standard input}:925:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:918:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000007$pb"
+o{standard input}:918:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:904:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000007$pb"
+o{standard input}:904:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:896:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000007$pb"
+o{standard input}:896:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:893:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000007$pb"
+o{standard input}:893:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:878:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000007$pb"
+o{standard input}:878:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:871:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"
+o{standard input}:871:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:862:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000007$pb"
+o{standard input}:862:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:859:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000007$pb"
+o{standard input}:859:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:851:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000007$pb"
+o{standard input}:851:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression
+o{standard input}:845:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"
+o{standard input}:845:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:831:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000007$pb"
+o{standard input}:831:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:774:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000006$pb"
+o{standard input}:774:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:743:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"
+o{standard input}:743:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:737:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000005$pb"
+o{standard input}:737:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:734:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000005$pb"
+o{standard input}:734:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:725:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"
+o{standard input}:725:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:719:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000005$pb"
+o{standard input}:719:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:716:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000005$pb"
+o{standard input}:716:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:705:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"
+o{standard input}:705:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:702:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:702:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:693:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"
+o{standard input}:693:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:687:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000005$pb"
+o{standard input}:687:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:684:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000005$pb"
+o{standard input}:684:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:674:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000005$pb"
+o{standard input}:674:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:667:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000005$pb"
+o{standard input}:667:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:664:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:664:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:657:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"
+o{standard input}:657:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:613:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"
+o{standard input}:613:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:604:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"
+o{standard input}:604:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:595:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"
+o{standard input}:595:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:587:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000004$pb"
+o{standard input}:587:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:576:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"
+o{standard input}:576:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:569:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"
+o{standard input}:569:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:566:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000004$pb"
+o{standard input}:566:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:524:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"
+o{standard input}:524:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"
+o{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:510:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"
+o{standard input}:510:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:496:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"
+o{standard input}:496:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:488:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:488:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:485:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000003$pb"
+o{standard input}:485:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:472:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000003$pb"
+o{standard input}:472:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:470:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"
+o{standard input}:470:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:459:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"
+o{standard input}:459:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:450:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000003$pb"
+o{standard input}:450:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"
+o{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:431:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000003$pb"
+o{standard input}:431:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:420:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:420:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:411:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"
+o{standard input}:411:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:405:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"
+o{standard input}:405:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:394:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:394:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000003$pb"
+o{standard input}:388:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:382:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"
+o{standard input}:382:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:379:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:379:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:373:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:373:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:370:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000003$pb"
+o{standard input}:370:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:354:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"
+o{standard input}:354:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:347:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"
+o{standard input}:347:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:344:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000003$pb"
+o{standard input}:344:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:333:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"
+o{standard input}:333:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:327:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000003$pb"
+o{standard input}:327:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:313:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"
+o{standard input}:313:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000003$pb"
+o{standard input}:305:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:290:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"
+o{standard input}:290:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:287:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000003$pb"
+o{standard input}:287:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:199:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:199:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:197:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:197:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:186:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:186:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:175:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:175:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:164:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:164:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:153:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:153:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:144:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"
+o{standard input}:144:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:138:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
+o{standard input}:138:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:112:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:112:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:106:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:106:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:103:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:103:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_30
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_33
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_36
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_34
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_35
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_37
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_38
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_MainViewController
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_39
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_40
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_41
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_42
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_43
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_44
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_45
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_46
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_47
+lSLF07#2@91"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m290875899#290875900#0(43158"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:12:25: error: Reachability.h: No such file or directory/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController reachabilityChanged:]':/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:300: warning: receiver 'Reachability' is a forward class and corresponding @interface may not exist/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController connectedToInternet:]':/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: 'NetworkStatus' undeclared (first use in this function)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: (Each undeclared identifier is reported only once/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: for each function it appears in.)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:307: error: expected ';' before 'netStatus'/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:309: error: 'netStatus' undeclared (first use in this function)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:310: error: 'NotReachable' undeclared (first use in this function)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:317: error: 'ReachableViaWWAN' undeclared (first use in this function)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:324: error: 'ReachableViaWiFi' undeclared (first use in this function)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:336: warning: control reaches end of non-void function/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m: In function '-[MainViewController viewDidAppear:]':/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:342: error: 'kReachabilityChangedNotification' undeclared (first use in this function)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: no '+reachabilityForInternetConnection' method found/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: (Messages without a matching method signature/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: will be assumed to return 'id' and accept/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:344: warning: '...' as arguments.)/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m:345: warning: no '-startNotifer' method found{standard input}:2079:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_47" minus "L00000000019$pb"{standard input}:2079:symbol: "L_OBJC_SELECTOR_REFERENCES_47" can't be undefined in a subtraction expression{standard input}:2070:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_46" minus "L00000000019$pb"{standard input}:2070:symbol: "L_OBJC_SELECTOR_REFERENCES_46" can't be undefined in a subtraction expression{standard input}:2067:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000019$pb"{standard input}:2067:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:2060:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_45" minus "L00000000019$pb"{standard input}:2060:symbol: "L_OBJC_SELECTOR_REFERENCES_45" can't be undefined in a subtraction expression{standard input}:2057:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_10" minus "L00000000019$pb"{standard input}:2057:symbol: "L_OBJC_CLASS_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:2049:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_44" minus "L00000000019$pb"{standard input}:2049:symbol: "L_OBJC_SELECTOR_REFERENCES_44" can't be undefined in a subtraction expression{standard input}:2043:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_43" minus "L00000000019$pb"{standard input}:2043:symbol: "L_OBJC_SELECTOR_REFERENCES_43" can't be undefined in a subtraction expression{standard input}:2040:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_9" minus "L00000000019$pb"{standard input}:2040:symbol: "L_OBJC_CLASS_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:2032:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_42" minus "L00000000019$pb"{standard input}:2032:symbol: "L_OBJC_SELECTOR_REFERENCES_42" can't be undefined in a subtraction expression{standard input}:1960:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000018$pb"{standard input}:1960:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:1956:non-relocatable subtraction expression, "L_OBJC_CLASS_MainViewController" minus "L00000000018$pb"{standard input}:1956:symbol: "L_OBJC_CLASS_MainViewController" can't be undefined in a subtraction expression{standard input}:1925:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_41" minus "L00000000017$pb"{standard input}:1925:symbol: "L_OBJC_SELECTOR_REFERENCES_41" can't be undefined in a subtraction expression{standard input}:1897:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_40" minus "L00000000016$pb"{standard input}:1897:symbol: "L_OBJC_SELECTOR_REFERENCES_40" can't be undefined in a subtraction expression{standard input}:1893:non-relocatable subtraction expression, "L_OBJC_CLASS_MainViewController" minus "L00000000016$pb"{standard input}:1893:symbol: "L_OBJC_CLASS_MainViewController" can't be undefined in a subtraction expression{standard input}:1864:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_39" minus "L00000000015$pb"{standard input}:1864:symbol: "L_OBJC_SELECTOR_REFERENCES_39" can't be undefined in a subtraction expression{standard input}:1860:non-relocatable subtraction expression, "L_OBJC_CLASS_MainViewController" minus "L00000000015$pb"{standard input}:1860:symbol: "L_OBJC_CLASS_MainViewController" can't be undefined in a subtraction expression{standard input}:1852:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"{standard input}:1852:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1843:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"{standard input}:1843:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1834:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"{standard input}:1834:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1825:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"{standard input}:1825:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1816:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000015$pb"{standard input}:1816:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1773:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000014$pb"{standard input}:1773:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:1770:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000014$pb"{standard input}:1770:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1758:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000014$pb"{standard input}:1758:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:1752:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000014$pb"{standard input}:1752:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1749:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000014$pb"{standard input}:1749:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:1739:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000014$pb"{standard input}:1739:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:1732:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000014$pb"{standard input}:1732:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1729:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000014$pb"{standard input}:1729:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1659:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000013$pb"{standard input}:1659:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1650:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000013$pb"{standard input}:1650:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression{standard input}:1611:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000012$pb"{standard input}:1611:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:1601:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000012$pb"{standard input}:1601:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:1587:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"{standard input}:1587:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression{standard input}:1578:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000012$pb"{standard input}:1578:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:1568:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"{standard input}:1568:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression{standard input}:1557:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"{standard input}:1557:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression{standard input}:1544:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_38" minus "L00000000012$pb"{standard input}:1544:symbol: "L_OBJC_SELECTOR_REFERENCES_38" can't be undefined in a subtraction expression{standard input}:1529:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_37" minus "L00000000012$pb"{standard input}:1529:symbol: "L_OBJC_SELECTOR_REFERENCES_37" can't be undefined in a subtraction expression{standard input}:1526:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_8" minus "L00000000012$pb"{standard input}:1526:symbol: "L_OBJC_CLASS_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:1443:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000011$pb"{standard input}:1443:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:1441:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000011$pb"{standard input}:1441:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:1430:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000011$pb"{standard input}:1430:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:1419:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000011$pb"{standard input}:1419:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:1408:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000011$pb"{standard input}:1408:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:1397:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000011$pb"{standard input}:1397:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:1388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000011$pb"{standard input}:1388:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:1382:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000011$pb"{standard input}:1382:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:1371:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000011$pb"{standard input}:1371:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1365:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000011$pb"{standard input}:1365:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:1359:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000011$pb"{standard input}:1359:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:1356:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000011$pb"{standard input}:1356:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1350:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000011$pb"{standard input}:1350:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1347:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000011$pb"{standard input}:1347:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:1305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_35" minus "L00000000010$pb"{standard input}:1305:symbol: "L_OBJC_SELECTOR_REFERENCES_35" can't be undefined in a subtraction expression{standard input}:1285:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_34" minus "L00000000010$pb"{standard input}:1285:symbol: "L_OBJC_SELECTOR_REFERENCES_34" can't be undefined in a subtraction expression{standard input}:1274:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_36" minus "L00000000010$pb"{standard input}:1274:symbol: "L_OBJC_SELECTOR_REFERENCES_36" can't be undefined in a subtraction expression{standard input}:1266:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000010$pb"{standard input}:1266:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:1236:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000009$pb"{standard input}:1236:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:1227:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000009$pb"{standard input}:1227:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression{standard input}:1180:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000008$pb"{standard input}:1180:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:1177:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"{standard input}:1177:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1170:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000008$pb"{standard input}:1170:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression{standard input}:1162:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000008$pb"{standard input}:1162:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:1156:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"{standard input}:1156:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1153:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000008$pb"{standard input}:1153:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:1125:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"{standard input}:1125:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:1118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"{standard input}:1118:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1115:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"{standard input}:1115:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1106:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000008$pb"{standard input}:1106:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:1092:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"{standard input}:1092:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:1085:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"{standard input}:1085:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1082:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"{standard input}:1082:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1073:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000008$pb"{standard input}:1073:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:1059:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000008$pb"{standard input}:1059:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:1052:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000008$pb"{standard input}:1052:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:1049:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000008$pb"{standard input}:1049:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:1040:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000008$pb"{standard input}:1040:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:932:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000007$pb"{standard input}:932:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:925:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000007$pb"{standard input}:925:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:918:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000007$pb"{standard input}:918:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:904:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000007$pb"{standard input}:904:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:896:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000007$pb"{standard input}:896:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:893:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000007$pb"{standard input}:893:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:878:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000007$pb"{standard input}:878:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:871:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"{standard input}:871:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:862:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000007$pb"{standard input}:862:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:859:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000007$pb"{standard input}:859:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:851:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000007$pb"{standard input}:851:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression{standard input}:845:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000007$pb"{standard input}:845:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:831:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000007$pb"{standard input}:831:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:774:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000006$pb"{standard input}:774:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:743:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"{standard input}:743:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:737:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000005$pb"{standard input}:737:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:734:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000005$pb"{standard input}:734:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:725:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"{standard input}:725:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:719:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000005$pb"{standard input}:719:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:716:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000005$pb"{standard input}:716:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:705:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"{standard input}:705:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:702:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000005$pb"{standard input}:702:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:693:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"{standard input}:693:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:687:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000005$pb"{standard input}:687:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:684:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_7" minus "L00000000005$pb"{standard input}:684:symbol: "L_OBJC_CLASS_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:674:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000005$pb"{standard input}:674:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:667:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000005$pb"{standard input}:667:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:664:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000005$pb"{standard input}:664:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:657:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"{standard input}:657:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:613:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000004$pb"{standard input}:613:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:604:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000004$pb"{standard input}:604:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:595:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000004$pb"{standard input}:595:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:587:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000004$pb"{standard input}:587:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:576:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000004$pb"{standard input}:576:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:569:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000004$pb"{standard input}:569:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:566:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000004$pb"{standard input}:566:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:524:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"{standard input}:524:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:517:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000003$pb"{standard input}:517:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:510:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000003$pb"{standard input}:510:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:496:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000003$pb"{standard input}:496:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:488:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"{standard input}:488:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:485:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000003$pb"{standard input}:485:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:472:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000003$pb"{standard input}:472:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:470:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"{standard input}:470:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:459:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000003$pb"{standard input}:459:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:450:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000003$pb"{standard input}:450:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:442:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000003$pb"{standard input}:442:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:431:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000003$pb"{standard input}:431:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:420:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000003$pb"{standard input}:420:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:411:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000003$pb"{standard input}:411:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:405:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000003$pb"{standard input}:405:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:394:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000003$pb"{standard input}:394:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:388:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000003$pb"{standard input}:388:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:382:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000003$pb"{standard input}:382:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:379:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000003$pb"{standard input}:379:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:373:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"{standard input}:373:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:370:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000003$pb"{standard input}:370:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:354:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000003$pb"{standard input}:354:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:347:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000003$pb"{standard input}:347:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:344:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000003$pb"{standard input}:344:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:333:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000003$pb"{standard input}:333:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:327:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000003$pb"{standard input}:327:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:313:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000003$pb"{standard input}:313:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:305:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000003$pb"{standard input}:305:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:290:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000003$pb"{standard input}:290:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:287:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000003$pb"{standard input}:287:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:199:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:199:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:197:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:197:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:186:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:186:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:175:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:175:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:164:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:164:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:153:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"{standard input}:153:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:144:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"{standard input}:144:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:138:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:138:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:127:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"{standard input}:127:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:121:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:121:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:115:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000002$pb"{standard input}:115:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:112:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"{standard input}:112:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:106:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000002$pb"{standard input}:106:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:103:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000002$pb"{standard input}:103:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_30{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_33{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_36{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_34{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_35{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_37{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_38{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_MainViewController{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_39{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_40{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_41{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_42{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_43{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_44{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_45{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_46{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4713(4@41"Reachability.h: No such file or directory290875900#0#140#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#12#0#12#0#28"*: No such file or directory0(22@85"Receiver 'Reachability' is a forward class and corresponding @interface may not exist290875900#283#184#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#300#0#300#0#0"0(4@55"'NetworkStatus' undeclared (first use in this function)290875900#610#152#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#307#0#307#0#43"'*' undeclared (first use in this function)0(4@31"Expected ';' before 'netStatus'290875900#1038#128#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#307#0#307#0#19"expected * before *0(4@51"'netStatus' undeclared (first use in this function)290875900#1166#148#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#309#0#309#0#43"'*' undeclared (first use in this function)0(4@54"'NotReachable' undeclared (first use in this function)290875900#1314#151#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#310#0#310#0#43"'*' undeclared (first use in this function)0(4@58"'ReachableViaWWAN' undeclared (first use in this function)290875900#1465#155#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#317#0#317#0#43"'*' undeclared (first use in this function)0(4@58"'ReachableViaWiFi' undeclared (first use in this function)290875900#1620#155#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#324#0#324#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function290875900#1775#139#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#336#0#336#0#40"control reaches end of non-void function0(4@74"'kReachabilityChangedNotification' undeclared (first use in this function)290875900#2051#171#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#342#0#342#0#43"'*' undeclared (first use in this function)0(22@52"No '+reachabilityForInternetConnection' method found290875900#2222#151#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#344#0#344#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)290875900#2373#144#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#344#0#344#0#0"0(22@31"No '-startNotifer' method found290875900#2776#130#0(6@83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m280382628#345#0#345#0#19"no '*' method found0(0#0#83"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m4300911832#2113"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/MainViewController.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/MainViewController.o"1#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrlAppDelegate.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.643069
-e277495529.735062
+s290875899.906448
+e290875900.086095
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrlAppDelegate.o
@@ -580,11 +1056,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m277495529#277495529#0(0"0(0#0#84"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m4300885448#2115"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrlAppDelegate.o"0#
+lSLF07#2@92"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m290875899#290875900#0(0"0(0#0#84"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m4300911832#2115"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Classes/PasteUrlAppDelegate.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrlAppDelegate.o"0#
+
+CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/Reachability.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s290875900.085112
+e290875900.149137
+r1
+xCompileC
+xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/Reachability.o
+x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m290875900#290875900#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m4300911832#2093"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/Reachability.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/Reachability.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/RegexKitLite.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.909170
-e277495530.188559
+s290875899.909784
+e290875900.145356
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/RegexKitLite.o
@@ -593,11 +1082,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m277495529#277495530#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m4300885448#2093"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/RegexKitLite.o"0#
+lSLF07#2@77"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m290875899#290875900#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m4300911832#2093"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/RegexKitLite.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/RegexKitLite.o"0#
 
 CCompileC build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/main.o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495529.641411
-e277495529.700810
+s290875899.905688
+e290875900.085962
 r1
 xCompileC
 xbuild/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/main.o
@@ -606,159 +1095,160 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m277495529#277495529#0(0"0(0#0#61"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m4300885448#2077"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/main.o"0#
+lSLF07#2@69"Compile /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m290875899#290875900#0(0"0(0#0#61"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m4300911832#2077"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -include /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/main.m" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/main.o"0#
 
 CCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"
-s277495528.260289
-e277495528.610420
+s290875897.956003
+e290875898.274655
 r1
 xCompileXIB
 x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib
-lSLF07#2@27"CompileXIB FlipsideView.xib277495528#277495528#0(0"0(0#0#71"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib4300885448#541"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/FlipsideView.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"0#
+lSLF07#2@27"CompileXIB FlipsideView.xib290875897#290875898#0(0"0(0#0#71"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib4300911832#541"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/FlipsideView.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/FlipsideView.xib"0#
 
 CCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib"
-s277495528.261152
-e277495528.699641
+s290875897.957540
+e290875898.369998
 r1
 xCompileXIB
 x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib
-lSLF07#2@23"CompileXIB MainView.xib277495528#277495528#0(0"0(0#0#67"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib4300885448#533"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/MainView.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib"0#
+lSLF07#2@23"CompileXIB MainView.xib290875897#290875898#0(0"0(0#0#67"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib4300911832#533"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/MainView.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainView.xib"0#
 
 CCompileXIB "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib"
-s277495528.610516
-e277495528.896693
+s290875897.958300
+e290875898.265986
 r1
 xCompileXIB
 x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib277495528#277495528#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib4300885448#537"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/MainWindow.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib"0#
+lSLF07#2@25"CompileXIB MainWindow.xib290875897#290875898#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib4300911832#537"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/MainWindow.nib" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/MainWindow.xib"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/19-gear.png 19-gear.png
-s277495528.701194
-e277495528.710099
+s290875897.959729
+e290875897.971771
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/19-gear.png
 x19-gear.png
-lSLF07#2@16"Copy 19-gear.png277495528#277495528#0(0"0(0#0#66"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png4300885448#510"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@16"Copy 19-gear.png290875897#290875897#0(0"0(0#0#66"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png4300911832#510"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/19-gear.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+
+CCpResource build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png ../../../../Desktop/PasteUrl_57x57.png
+s290875897.972774
+e290875897.978170
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png
+x../../../../Desktop/PasteUrl_57x57.png
+opbxcp: PasteUrl_57x57.png: No such file or directory
+lSLF07#2@43"Copy ../../../../Desktop/PasteUrl_57x57.png290875897#290875897#0(53"pbxcp: PasteUrl_57x57.png: No such file or directory1(4@52"pbxcp: PasteUrl_57x57.png: No such file or directory290875897#18446744073709551615#0#0(6@0"290875897#0#0#0#0#0"0(0#0#93"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/PasteUrl_57x57.png4300911832#537"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../../../../Desktop/PasteUrl_57x57.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"1#
+
+CCpResource build/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png PasteUrl_57x57.png
+s290875897.973485
+e290875897.978641
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PasteUrl.app/PasteUrl_57x57.png
+xPasteUrl_57x57.png
+lSLF07#2@23"Copy PasteUrl_57x57.png290875897#290875897#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_57x57.png4300911832#517"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_57x57.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/Settings.bundle "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle"
-s277495528.702893
-e277495528.722634
+s290875897.961090
+e290875897.983016
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/Settings.bundle
 x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle
-lSLF07#2@80"Copy /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle277495528#277495528#0(0"0(0#0#75"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle4300885448#519"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@80"Copy /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle290875897#290875897#0(0"0(0#0#75"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle4300911832#519"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/background.png background.png
-s277495528.702325
-e277495528.715801
+s290875897.960632
+e290875897.982707
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/background.png
 xbackground.png
-lSLF07#2@19"Copy background.png277495528#277495528#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png4300885448#513"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@19"Copy background.png290875897#290875897#0(0"0(0#0#69"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png4300911832#513"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/background.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/blueButton.png ../CompressUrl/blueButton.png
-s277495528.700594
-e277495528.723326
+s290875897.959267
+e290875897.971605
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/blueButton.png
 x../CompressUrl/blueButton.png
-lSLF07#2@34"Copy ../CompressUrl/blueButton.png277495528#277495528#0(0"0(0#0#84"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png4300885448#528"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@34"Copy ../CompressUrl/blueButton.png290875897#290875897#0(0"0(0#0#84"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png4300911832#528"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/../CompressUrl/blueButton.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/clipboard.png clipboard.png
-s277495528.703503
-e277495528.716623
+s290875897.961568
+e290875897.974331
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/clipboard.png
 xclipboard.png
-lSLF07#2@18"Copy clipboard.png277495528#277495528#0(0"0(0#0#68"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png4300885448#512"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@18"Copy clipboard.png290875897#290875897#0(0"0(0#0#68"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png4300911832#512"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/clipboard09.png clipboard09.png
-s277495528.704086
-e277495528.722827
+s290875897.968951
+e290875897.983402
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/clipboard09.png
 xclipboard09.png
-lSLF07#2@20"Copy clipboard09.png277495528#277495528#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png4300885448#514"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@20"Copy clipboard09.png290875897#290875897#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png4300911832#514"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard09.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/clipboard_icon.png clipboard_icon.png
-s277495528.704652
-e277495528.725116
+s290875897.972025
+e290875897.976854
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/clipboard_icon.png
 xclipboard_icon.png
-lSLF07#2@23"Copy clipboard_icon.png277495528#277495528#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png4300885448#517"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@23"Copy clipboard_icon.png290875897#290875897#0(0"0(0#0#73"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png4300911832#517"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/clipboard_icon.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/segment_check.png segment_check.png
-s277495528.701768
-e277495528.710297
+s290875897.960177
+e290875897.971932
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/segment_check.png
 xsegment_check.png
-lSLF07#2@22"Copy segment_check.png277495528#277495528#0(0"0(0#0#72"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png4300885448#516"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@22"Copy segment_check.png290875897#290875897#0(0"0(0#0#72"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png4300911832#516"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/segment_check.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CCpResource build/Debug-iphonesimulator/PasteUrl.app/whiteButton.png whiteButton.png
-s277495528.699737
-e277495528.705506
+s290875897.958775
+e290875897.968863
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/PasteUrl.app/whiteButton.png
 xwhiteButton.png
-lSLF07#2@20"Copy whiteButton.png277495528#277495528#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png4300885448#514"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+lSLF07#2@20"Copy whiteButton.png290875897#290875897#0(0"0(0#0#70"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png4300911832#514"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/whiteButton.png" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
 
 CGenerateDSYMFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app.dSYM" "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl"
-s277495530.413759
-e277495530.440086
-r1
-xGenerateDSYMFile
-x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app.dSYM
-x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/PasteUrl.app.dSYM build/Debug-iphonesimulator/PasteUrl.app/PasteUrl277495530#277495530#0(0"0(0#0#104"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl4300885448#440"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl" -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app.dSYM"0#
+r0
 
 CLd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl" normal i386
-s277495530.237015
-e277495530.413643
-r1
-xLd
-x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl
-xnormal
-xi386
-lSLF07#2@109"Link /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl277495530#277495530#0(0"0(0#0#0"4300885448#969"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" -filelist "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/Objects-normal/i386/PasteUrl.LinkFileList" -mmacosx-version-min=10.5 -licucore -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PasteUrl"0#
+r0
 
 CProcessInfoPlistFile "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Info.plist" PasteUrl-Info.plist
-s277495528.253643
-e277495528.260182
+s290875897.947165
+e290875897.955933
 r1
 xProcessInfoPlistFile
 x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Info.plist
 xPasteUrl-Info.plist
-lSLF07#2@27"Process PasteUrl-Info.plist277495528#277495528#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl-Info.plist7669474379149881344#536"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PasteUrl-Info.plist -genpkginfo "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Info.plist"0#
+lSLF07#2@27"Process PasteUrl-Info.plist290875897#290875897#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl-Info.plist8458375192976385024#536"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PasteUrl-Info.plist -genpkginfo "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app/Info.plist"0#
 
-CProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s277495528.896919
-e277495529.641213
+CProcessPCH /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch.gch PasteUrl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s290875898.370156
+e290875899.905574
 r1
 xProcessPCH
-x/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch.gch
+x/var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch.gch
 xPasteUrl_Prefix.pch
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile PasteUrl_Prefix.pch277495528#277495529#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch4300885448#1950"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch" -o /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-fgkamcihohlgkqbfgwckumbrbsod/PasteUrl_Prefix.pch.gch0#
+lSLF07#2@30"Precompile PasteUrl_Prefix.pch290875898#290875899#0(0"0(0#0#74"/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch8458654520319566848#1950"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-generated-files.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-own-target-headers.hmap" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-all-target-headers.hmap" -iquote "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/PasteUrl-project-headers.hmap" "-F/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/include" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources/i386" "-I/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/PasteUrl.build/Debug-iphonesimulator/PasteUrl.build/DerivedSources" -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/PasteUrl_Prefix.pch" -o /var/folders/2Q/2QeTHk8zELyplVscBazAzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PasteUrl_Prefix-cujvyujctekyjbfvnwartxkeiglr/PasteUrl_Prefix.pch.gch0#
 
 CTouch "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"
-s277495530.440168
-e277495530.445023
-r1
-xTouch
-x/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app
-lSLF07#2@101"Touch /Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app277495530#277495530#0(0"0(0#0#0"4300885448#315"    cd "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl/build/Debug-iphonesimulator/PasteUrl.app"0#
+r0
 
