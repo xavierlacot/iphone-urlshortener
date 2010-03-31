@@ -40,7 +40,7 @@
 	HUD.delegate = self;
 	
 	HUD.labelText = @"Loading";
-	HUD.detailsLabelText = @"retriving shortened Url...";
+	HUD.detailsLabelText = @"retrieving shortened Url...";
 	
 	// Show the HUD while the provided method executes in a new thread
 	[HUD showWhileExecuting:@selector(initiateCompression) onTarget:self withObject:nil animated:YES];
