@@ -9,7 +9,7 @@
 #define kServiceKey		@"services"
 #define kTinyUrlService @"TinyURL"
 #define kIsgdService	@"is.gd"
-#define kTrimService	@"tr.im"
+#define kXavccService	@"xav.cc"
 
 #import "FlipsideViewController.h"
 #import "MBProgressHUD.h"

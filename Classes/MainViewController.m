@@ -152,8 +152,8 @@
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://tinyurl.com/api-create.php?url=%@", url];
 	} else if ([service isEqualToString:kIsgdService]) {
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://is.gd/api.php?longurl=%@", url];
-	} else if ([service isEqualToString:kTrimService]) {
-		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://api.tr.im/api/trim_simple?url=%@", url];
+	} else if ([service isEqualToString:kXavccService]) {
+		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://local.api.xav.cc/simple?url=%@", url];
 	} else {
 		NSString *displayText = @"Service Not Selected";
 		NSLog(@"Results: %@",displayText );
@@ -367,14 +367,14 @@
 	// Prepare regex items to setup strings for text field display
 	NSString *regexString = @"\\b(https?)://([a-zA-Z0-9\\-.]+)((?:/[a-zA-Z0-9\\-._?,'+\\&%$=~*!():@\\\\]*)+)?";
 	NSString *regexTinyUrlString = @"(\\b(https?)://)?(tinyurl.com/)";
-	NSString *regexTrimUrlString = @"(\\b(https?)://)?(tr.im/)";
+	NSString *regexXavccUrlString = @"(\\b(https?)://)?(xav.cc/)";
 	NSString *regexIsgdUrlString = @"(\\b(https?)://)?(is.gd/)";
 	
 	if([firstItemInPasteBoardString isMatchedByRegex:regexString]) {
 		if ([firstItemInPasteBoardString isMatchedByRegex:regexTinyUrlString]) {
 			uncompressedUrl.text = [self unshortUrl:firstItemInPasteBoardString];
 		}
-		else if ([firstItemInPasteBoardString isMatchedByRegex:regexTrimUrlString]) {
+		else if ([firstItemInPasteBoardString isMatchedByRegex:regexXavccUrlString]) {
 			uncompressedUrl.text = [self unshortUrl:firstItemInPasteBoardString];
 		}
 		else if ([firstItemInPasteBoardString isMatchedByRegex:regexIsgdUrlString]) {
