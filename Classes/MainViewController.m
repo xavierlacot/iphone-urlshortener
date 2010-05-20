@@ -153,7 +153,7 @@
 	} else if ([service isEqualToString:kIsgdService]) {
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://is.gd/api.php?longurl=%@", url];
 	} else if ([service isEqualToString:kXavccService]) {
-		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://local.api.xav.cc/simple?url=%@", url];
+		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://api.xav.cc/simple/encode?url=%@", url];
 	} else {
 		NSString *displayText = @"Service Not Selected";
 		NSLog(@"Results: %@",displayText );
