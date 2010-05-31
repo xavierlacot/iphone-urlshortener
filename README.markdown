@@ -6,7 +6,7 @@ This is the source code for the iPhone App "Url Shortener".  It's my first iPhon
 PRODUCT DESCRIPTION
 ------------------
 
-Simple App that provides you with the capability to shorten any URL in you clipboard with three popular services that include TinyUrl, tr.im, and is.gd.  
+Simple App that provides you with the capability to shorten any URL in you clipboard with three popular services that include TinyUrl, is.gd and xav.cc.  
 
 SCREEN SHOTS
 ----------

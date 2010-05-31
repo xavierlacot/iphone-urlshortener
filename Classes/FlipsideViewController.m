@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
 	self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor]; 
-    NSArray *array = [[NSArray alloc] initWithObjects:@"TinyURL", @"tr.im", @"is.gd", nil];
+    NSArray *array = [[NSArray alloc] initWithObjects:@"TinyURL", @"xav.cc", @"is.gd", nil];
 	self.list = array;
 	[array release];
 	
@@ -78,7 +78,7 @@
 	if ([previousRow isEqualToString:kTinyUrlService]) {
 		oldRow = 0;
 	}
-	else if ([previousRow isEqualToString:kTrimService]) {
+	else if ([previousRow isEqualToString:kXavccService]) {
 		oldRow = 1;
 	}
 	else if ([previousRow isEqualToString:kIsgdService]) {

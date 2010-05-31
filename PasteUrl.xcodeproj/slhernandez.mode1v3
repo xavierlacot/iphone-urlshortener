@@ -266,7 +266,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>E95992A111B2CFB400CBCBE9</string>
 								<string>289233A00DB2D0730083E9F9</string>
 								<string>281C6CD70DB2D82200F60ACC</string>
 								<string>080E96DDFE201D6D7F000001</string>
@@ -281,8 +280,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -322,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FlipsideViewController.m</string>
+								<string>MainViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +327,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FlipsideViewController.m</string>
-										<key>_historyCapacity</key>
-										<integer>0</integer>
-										<key>bookmark</key>
-										<string>E93CD1CD11B442FF00343565</string>
+										<string>MainViewController.m</string>
 										<key>history</key>
 										<array>
 											<string>E9FF9C930FBF3ADC00A66088</string>
@@ -356,17 +349,10 @@
 											<string>E9AD119A11568AC300C026D6</string>
 											<string>E9AD119B11568AC300C026D6</string>
 											<string>E9AD119C11568AC300C026D6</string>
+											<string>E9AD119D11568AC300C026D6</string>
 											<string>E9AD119F11568AC300C026D6</string>
 											<string>E94E0493115EA9DF00D00B46</string>
 											<string>E94E0494115EA9DF00D00B46</string>
-											<string>E95992B611B2DD7400CBCBE9</string>
-											<string>E95992B711B2DD7400CBCBE9</string>
-											<string>E95992B811B2DD7400CBCBE9</string>
-											<string>E93CD1C911B442FF00343565</string>
-											<string>E93CD1CA11B442FF00343565</string>
-											<string>E93CD1CB11B442FF00343565</string>
-											<string>E93CD1CC11B442FF00343565</string>
-											<string>E9AD119D11568AC300C026D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -424,9 +410,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E93CD1CE11B442FF00343565</string>
+				<string>E9B783F511B44CF40004F0D9</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E93CD1CF11B442FF00343565</string>
+				<string>E9B783F611B44CF40004F0D9</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -596,7 +582,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {774, 101}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1334 666 774 634 0 0 2560 1418 </string>
+								<string>493 663 774 634 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -620,7 +606,7 @@
 								<key>Frame</key>
 								<string>{{0, 106}, {774, 487}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1334 666 774 634 0 0 2560 1418 </string>
+								<string>493 663 774 634 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -643,14 +629,14 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E929974B0F9D6B1700E75021</string>
-				<string>E93CD1D011B442FF00343565</string>
+				<string>E9B783F711B44CF40004F0D9</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.buildV3</string>
 			<key>WindowString</key>
-			<string>1334 666 774 634 0 0 2560 1418 </string>
+			<string>493 663 774 634 0 0 2560 1418 </string>
 			<key>WindowToolGUID</key>
 			<string>E929974B0F9D6B1700E75021</string>
 			<key>WindowToolIsVisible</key>
@@ -763,13 +749,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>E95992BE11B2DD7400CBCBE9</string>
+				<string>E9B783E411B44CEE0004F0D9</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>E95992BF11B2DD7400CBCBE9</string>
-				<string>E95992C011B2DD7400CBCBE9</string>
-				<string>E95992C111B2DD7400CBCBE9</string>
-				<string>E95992C211B2DD7400CBCBE9</string>
-				<string>E95992C311B2DD7400CBCBE9</string>
+				<string>E9B783E511B44CEE0004F0D9</string>
+				<string>E9B783E611B44CEE0004F0D9</string>
+				<string>E9B783E711B44CEE0004F0D9</string>
+				<string>E9B783E811B44CEE0004F0D9</string>
+				<string>E9B783E911B44CEE0004F0D9</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -923,7 +909,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>E95992C411B2DD7400CBCBE9</string>
+				<string>E9B783EA11B44CEE0004F0D9</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
