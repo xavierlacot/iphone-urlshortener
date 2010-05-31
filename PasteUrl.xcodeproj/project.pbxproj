@@ -19,10 +19,10 @@
 		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
-		E9031BFA0FBF489D00439709 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9031BF90FBF489D00439709 /* Settings.bundle */; };
 		E904D18F10B64573001FA1D6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E904D18E10B64573001FA1D6 /* Reachability.m */; };
 		E929975B0F9D781600E75021 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E929975A0F9D781600E75021 /* whiteButton.png */; };
 		E929975D0F9D781C00E75021 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E929975C0F9D781C00E75021 /* blueButton.png */; };
+		E95992A211B2CFB400CBCBE9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E95992A111B2CFB400CBCBE9 /* Settings.bundle */; };
 		E962CFB60FD1D87F00EB3EA5 /* clipboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E962CFB50FD1D87F00EB3EA5 /* clipboard.png */; };
 		E962CFD70FD1DAC100EB3EA5 /* clipboard09.png in Resources */ = {isa = PBXBuildFile; fileRef = E962CFD60FD1DAC100EB3EA5 /* clipboard09.png */; };
 		E962CFE50FD1DB9500EB3EA5 /* clipboard_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E962CFE40FD1DB9500EB3EA5 /* clipboard_icon.png */; };
@@ -58,10 +58,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* PasteUrl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteUrl_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* PasteUrl-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PasteUrl-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		E9031BF90FBF489D00439709 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = "/Users/slhernandez/iPhone/iPhone 3.0/Projects/PasteUrl v0.2/Settings.bundle"; sourceTree = "<absolute>"; };
 		E904D18E10B64573001FA1D6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E929975A0F9D781600E75021 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		E929975C0F9D781C00E75021 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = ../CompressUrl/blueButton.png; sourceTree = SOURCE_ROOT; };
+		E95992A111B2CFB400CBCBE9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E962CFB50FD1D87F00EB3EA5 /* clipboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard.png; sourceTree = "<group>"; };
 		E962CFD60FD1DAC100EB3EA5 /* clipboard09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard09.png; sourceTree = "<group>"; };
 		E962CFE40FD1DB9500EB3EA5 /* clipboard_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard_icon.png; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				E9031BF90FBF489D00439709 /* Settings.bundle */,
+				E95992A111B2CFB400CBCBE9 /* Settings.bundle */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
 				080E96DDFE201D6D7F000001 /* Application Delegate */,
@@ -256,12 +256,12 @@
 				E9D8C45B0FACCB5E00411D25 /* 19-gear.png in Resources */,
 				E9B49AB20FB8FC2E00A9FD70 /* segment_check.png in Resources */,
 				E9E2BA7B0FBB135000B70668 /* background.png in Resources */,
-				E9031BFA0FBF489D00439709 /* Settings.bundle in Resources */,
 				E962CFB60FD1D87F00EB3EA5 /* clipboard.png in Resources */,
 				E962CFD70FD1DAC100EB3EA5 /* clipboard09.png in Resources */,
 				E962CFE50FD1DB9500EB3EA5 /* clipboard_icon.png in Resources */,
 				E9E32BF810B6437E0094FD5F /* PasteUrl_57x57.png in Resources */,
 				E9AD119711567DEF00C026D6 /* PasteUrl_712x512.tiff in Resources */,
+				E95992A211B2CFB400CBCBE9 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
