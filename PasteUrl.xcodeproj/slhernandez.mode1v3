@@ -281,6 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>13</integer>
+									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainViewController.m</string>
+								<string>FlipsideViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainViewController.m</string>
+										<string>FlipsideViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E95992BA11B2DD7400CBCBE9</string>
+										<string>E93CD1CD11B442FF00343565</string>
 										<key>history</key>
 										<array>
 											<string>E9FF9C930FBF3ADC00A66088</string>
@@ -344,9 +346,6 @@
 											<string>E9643F81108EAB710067E684</string>
 											<string>E9643F82108EAB710067E684</string>
 											<string>E96440F8109156800067E684</string>
-											<string>E93E3DBC109397ED0038557B</string>
-											<string>E93E3DBD109397ED0038557B</string>
-											<string>E93E3DBE109397ED0038557B</string>
 											<string>E93E3DC0109397ED0038557B</string>
 											<string>E93E3DC1109397ED0038557B</string>
 											<string>E93E3DC2109397ED0038557B</string>
@@ -357,14 +356,17 @@
 											<string>E9AD119A11568AC300C026D6</string>
 											<string>E9AD119B11568AC300C026D6</string>
 											<string>E9AD119C11568AC300C026D6</string>
-											<string>E9AD119D11568AC300C026D6</string>
 											<string>E9AD119F11568AC300C026D6</string>
 											<string>E94E0493115EA9DF00D00B46</string>
 											<string>E94E0494115EA9DF00D00B46</string>
 											<string>E95992B611B2DD7400CBCBE9</string>
 											<string>E95992B711B2DD7400CBCBE9</string>
 											<string>E95992B811B2DD7400CBCBE9</string>
-											<string>E95992B911B2DD7400CBCBE9</string>
+											<string>E93CD1C911B442FF00343565</string>
+											<string>E93CD1CA11B442FF00343565</string>
+											<string>E93CD1CB11B442FF00343565</string>
+											<string>E93CD1CC11B442FF00343565</string>
+											<string>E9AD119D11568AC300C026D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -422,9 +424,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E95992BB11B2DD7400CBCBE9</string>
+				<string>E93CD1CE11B442FF00343565</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E95992BC11B2DD7400CBCBE9</string>
+				<string>E93CD1CF11B442FF00343565</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -560,8 +562,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E929974B0F9D6B1700E75021</string>
 		<string>/Users/slhernandez/iPhone Dev/iPhone 3.0/Projects/PasteUrl/PasteUrl.xcodeproj</string>
 	</array>
@@ -604,8 +604,6 @@
 							<string>101pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -645,7 +643,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E929974B0F9D6B1700E75021</string>
-				<string>E95992BD11B2DD7400CBCBE9</string>
+				<string>E93CD1D011B442FF00343565</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -656,7 +654,7 @@
 			<key>WindowToolGUID</key>
 			<string>E929974B0F9D6B1700E75021</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
