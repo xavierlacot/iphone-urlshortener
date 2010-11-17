@@ -9,6 +9,7 @@
 #define kTinyUrlService @"TinyURL"
 #define kIsgdService	@"is.gd"
 #define kXavccService	@"xav.cc"
+#define kSurlmeService	@"surl.me"
 
 @protocol FlipsideViewControllerDelegate;
 
@@ -30,4 +31,3 @@
 @protocol FlipsideViewControllerDelegate
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller;
 @end
-
