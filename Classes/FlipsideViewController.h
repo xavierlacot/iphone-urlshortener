@@ -3,7 +3,7 @@
 //  PasteUrl
 //
 //  Created by Steve Hernandez on 4/20/09.
-//  Copyright BinaryImplosion 2009. All rights reserved.
+//  Copyright BinaryImplosion.com 2009. All rights reserved.
 //
 #define kServiceKey		@"services"
 #define kTinyUrlService @"TinyURL"
