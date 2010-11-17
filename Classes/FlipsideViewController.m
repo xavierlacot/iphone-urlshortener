@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
 	self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor]; 
-    NSArray *array = [[NSArray alloc] initWithObjects:@"TinyURL", @"xav.cc", @"is.gd", nil];
+    NSArray *array = [[NSArray alloc] initWithObjects:@"TinyURL", @"xav.cc", @"is.gd", @"sURL.me", nil];
 	self.list = array;
 	[array release];
 	
