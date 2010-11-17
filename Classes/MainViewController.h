@@ -5,11 +5,11 @@
 //  Created by Steve Hernandez on 4/20/09.
 //  Copyright BinaryImplosion.com 2009. All rights reserved.
 //
-
 #define kServiceKey		@"services"
 #define kTinyUrlService @"TinyURL"
 #define kIsgdService	@"is.gd"
 #define kXavccService	@"xav.cc"
+#define kSurlmeService	@"surl.me"
 
 #import "FlipsideViewController.h"
 #import "MBProgressHUD.h"
