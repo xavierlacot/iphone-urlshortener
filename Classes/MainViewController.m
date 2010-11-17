@@ -147,13 +147,15 @@
 
 - (NSString *)generateRequestURL:(NSString *)url service:(NSString *)service {
 	NSString *serviceRequestUrl;
-	// Let's check to see if this works!˙
+	// Let's check to see if this works!
 	if ([service isEqualToString:kTinyUrlService]) {
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://tinyurl.com/api-create.php?url=%@", url];
 	} else if ([service isEqualToString:kIsgdService]) {
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://is.gd/api.php?longurl=%@", url];
 	} else if ([service isEqualToString:kXavccService]) {
 		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://api.xav.cc/simple/encode?url=%@", url];
+	} else if ([service isEqualToString:kSurlmeService]) {
+		serviceRequestUrl = [[NSString alloc] initWithFormat:@"http://surl.me/api-create.php?url=%@", url];
 	} else {
 		NSString *displayText = @"Service Not Selected";
 		NSLog(@"Results: %@",displayText );
@@ -369,6 +371,7 @@
 	NSString *regexTinyUrlString = @"(\\b(https?)://)?(tinyurl.com/)";
 	NSString *regexXavccUrlString = @"(\\b(https?)://)?(xav.cc/)";
 	NSString *regexIsgdUrlString = @"(\\b(https?)://)?(is.gd/)";
+	NSString *regexSurlmeUrlString = @"(\\b(https?)://)?(surl.me/)";
 	
 	if([firstItemInPasteBoardString isMatchedByRegex:regexString]) {
 		if ([firstItemInPasteBoardString isMatchedByRegex:regexTinyUrlString]) {
@@ -378,6 +381,9 @@
 			uncompressedUrl.text = [self unshortUrl:firstItemInPasteBoardString];
 		}
 		else if ([firstItemInPasteBoardString isMatchedByRegex:regexIsgdUrlString]) {
+			uncompressedUrl.text = [self unshortUrl:firstItemInPasteBoardString];
+		}
+		else if ([firstItemInPasteBoardString isMatchedByRegex:regexSurlmeUrlString]) {
 			uncompressedUrl.text = [self unshortUrl:firstItemInPasteBoardString];
 		}
 		else {
