@@ -84,6 +84,9 @@
 	else if ([previousRow isEqualToString:kIsgdService]) {
 		oldRow = 2;
 	}
+	else if ([previousRow isEqualToString:kSurlmeService]) {
+		oldRow = 3;
+	}
 	else {
 		oldRow = (lastIndexPath != nil) ? [lastIndexPath row] : -1;
 	}
