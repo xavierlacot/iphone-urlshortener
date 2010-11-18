@@ -9,7 +9,7 @@
 #define kTinyUrlService @"TinyURL"
 #define kIsgdService	@"is.gd"
 #define kXavccService	@"xav.cc"
-#define kSurlmeService	@"surl.me"
+#define kSurlmeService	@"sURL.me"
 
 #import "FlipsideViewController.h"
 #import "MBProgressHUD.h"
